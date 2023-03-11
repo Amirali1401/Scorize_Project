@@ -1,0 +1,9 @@
+<h1>Search Results</h1>
+
+<ul>
+  {% for item in university %}
+    <li>
+      {{ item.name }}, {{ item.city }}
+    </li>
+  {% endfor %}
+</ul>

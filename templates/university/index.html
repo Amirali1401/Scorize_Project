@@ -1,0 +1,7 @@
+
+
+{% for item in university %}
+    {{ item.id }} : {{ item.name }} : {{ item.acronym }} :{{ item.city }}
+    <hr>
+    {{ item.address_site }} : {{ item.numbers_national_students }}  : {{ item.numbers_students }}
+{% endfor %}

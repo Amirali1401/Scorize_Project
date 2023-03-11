@@ -5,3 +5,14 @@
     <hr>
     {{ item.address_site }} : {{ item.numbers_national_students }}  : {{ item.numbers_students }}
 {% endfor %}
+
+<br>
+<hr>
+
+<form action="{% url 'search_results' %}" method="get">
+    <label>
+        <input name="q" type="text" placeholder="Search...">
+    </label>
+</form>
+
+
